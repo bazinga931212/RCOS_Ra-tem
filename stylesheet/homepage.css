@@ -1,0 +1,123 @@
+*{
+	color:#224276;
+	font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+@font-face{
+    font-family: Pontiac;
+    src:url(font/PontiacBold.otf);
+    src:url(font/PontiacRegular.otf);
+}
+
+body{
+	margin:0;
+}
+
+ul{
+	margin:1em;
+	display: block;
+	text-align: right;
+}
+
+li:hover{
+	background-color: #224276;
+	color:#fff;
+	cursor: pointer;
+}
+
+li{
+	display:inline-block;
+	border:2px solid #224276;
+	padding:0.5em 1em 0.5em 1em;
+	list-style-type: none;
+	margin-right: 0.5em;
+}
+
+#logo{
+	display: block;
+	margin:auto;
+	margin-top: 5%;
+	margin-bottom: 4%;
+}
+
+.searchbar {
+    padding: 0; /* Padding for other horizontal elements */
+    margin:auto;
+    width:50%;
+}
+
+.barwrapper {
+    background: transparent;
+    right: 0;
+    text-align: right;
+}
+
+.searchform {
+    position: relative;
+}
+
+.inputwrapper {
+    padding: 0 70px 0 0; /* Right padding for submit button width */
+    overflow: hidden;
+}
+
+.findcourse {
+    width: 95%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 30px;
+    padding: 0 46px 0px 20px;
+    border-radius: 35px; /* (height/2) + border-width */
+    border: #224276 solid 5px;
+    margin-top: 15px;
+    color: #888;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 120%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.findbutton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    margin-top: 4px; /* margin-top + border-width */
+    margin-right: 5%; /* border-width */
+    background: transparent;
+    color: #224276;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.findcourse:focus {
+    outline: none;
+}
+
+.findbutton:hover {
+    cursor: pointer;
+}
+
+footer{
+	position: absolute;
+	width:100%;
+	background-color: #224276;
+	bottom: 0;
+	padding:0.5em;
+	text-align: right;
+}
+
+p,i{
+	color:#fff;
+	display:inline;
+}
+
